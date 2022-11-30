@@ -1,3 +1,6 @@
-(ns app
-  (:require [db])
-  (:require [menu]))
+(ns app)
+
+(defn hello-world [username]
+(println (format "Hello, %s" username)))
+
+(hello-world "world")
