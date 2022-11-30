@@ -1,3 +1,3 @@
 (ns app
-(:require [db])
-(:require [menu]))
+  (:require [db])
+  (:require [menu]))
