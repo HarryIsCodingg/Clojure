@@ -1,6 +1,6 @@
 # Clojure
 This program will load data from a series of three disk files. This data will then form your
-Sales database. Each table will have a “schema” that indicates the fields inside. So your DB will look
+Sales database. Each table will have a “schema” that indicates the fields inside. So DB will look
 like this:
 
 cust.txt: This is the data for the customer table. The schema is
