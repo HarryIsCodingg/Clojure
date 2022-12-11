@@ -25,7 +25,7 @@
     (do
       (if (= option "6")
         (do
-          (println "\nThank you for using our service!\nGood Bye!"))
+          (println "\nThank you for using our service!\n\nGood Bye!\n"))
         (do
           (db/getData (Integer/parseInt option))
           (userInput))))
