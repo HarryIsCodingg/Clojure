@@ -28,7 +28,7 @@ An example of the sales.txt disk file might be:
 3|2|1|1
 4|3|3|4
 
-* The program will ask the user to do something with the data. It will provide the following menu to allow the user to perform actions on the data:
+***The program will ask the user to do something with the data. It will provide the following menu to allow the user to perform actions on the data:***
 
   Sales Menu 
 
