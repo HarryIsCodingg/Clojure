@@ -1,4 +1,4 @@
-# Clojure
+## This Clojure application will load a series of file and then display the data based upon user selection ##
 This program will load data from a series of three disk files. This data will then form your
 Sales database. Each table will have a “schema” that indicates the fields inside. So DB will look
 like this:
@@ -27,3 +27,15 @@ An example of the sales.txt disk file might be:
 2|2|2|3
 3|2|1|1
 4|3|3|4
+
+*The program will ask the user to do something with the data. It will provide the following menu to allow the user to perform actions on the data:
+
+  Sales Menu 
+
+  1. Display Customer Table
+  2. Display Product Table
+  3. Display Sales Table
+  4. Total Sales for Customer
+  5. Total Count for Product
+  6. Exit
+  Enter an option?
