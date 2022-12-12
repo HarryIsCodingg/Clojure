@@ -175,7 +175,7 @@
           (println "\nThe product with name" prodName "is not found in the database! "))
         (do
           (println "\nTotal number of" prodName "sold are:\n")
-          (println prodName ":" (calculateProducts isProductFound (count salesDataLines))))))))
+          (println prodName ":" (clojure.string/capitalize (calculateProducts isProductFound (count salesDataLines)))))))))
 
 
 
